@@ -14,7 +14,7 @@ extension Image {
             .frame(width: 250, height: 250)
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.white, lineWidth: 4))
-            .shadow(radius: 7)
+            .shadow(radius: 20)
         
         
             /*.resizable()

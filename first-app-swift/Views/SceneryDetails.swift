@@ -11,8 +11,7 @@ struct SceneryDetails: View {
     var scenery: Scenary
     
     var body: some View {
-        ScrollView{
-            
+       VStack{
             MapView(coordinate: scenery.locationCoordinate)
                 .ignoresSafeArea(.container, edges: .top)
                 .frame(height: 300, alignment: .top)

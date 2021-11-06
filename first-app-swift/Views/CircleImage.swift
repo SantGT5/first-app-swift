@@ -11,16 +11,26 @@ extension Image {
     func imageModifier () -> some View {
         self
             .resizable()
-            .scaledToFit()
+            .frame(width: 250, height: 250)
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.white, lineWidth: 4))
             .shadow(radius: 7)
+        
+        
+            /*.resizable()
+            .scaledToFit()
+            .clipShape(Circle())
+
+            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+            .frame(width: 400, height: 400)
+
+            .shadow(radius: 7)*/
     }
     
     func iconModifier() -> some View {
         self
             .imageModifier()
-            .frame(maxWidth: 128)
+            .frame(maxWidth: 128, maxHeight: 128)
             .foregroundColor(.pink)
             .opacity(0.6)
     }
@@ -59,12 +69,13 @@ struct CircleImage: View {
     image
         .imageModifier()
         
+        
     }
 }
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage(image: scenaries[5].image)
+        CircleImage(image: scenaries[4].image)
         
     }
 }

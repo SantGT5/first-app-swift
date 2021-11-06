@@ -11,7 +11,7 @@ extension Image {
     func imageModifier () -> some View {
         self
             .resizable()
-            .frame(width: 250, height: 250)
+            .frame(width: 200, height: 200)
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.white, lineWidth: 4))
             .shadow(radius: 20)

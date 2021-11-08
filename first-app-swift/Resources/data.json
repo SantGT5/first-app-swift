@@ -12,7 +12,7 @@
             "longitude": -60.025780,
             "latitude": -3.117034
         },
-        "description": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque consequat neque pulvinar tortor imperdiet tincidunt. Donec vel dui in nisl gravida vehicula. Suspendisse placerat lacinia vestibulum. Nulla ornare lacinia tincidunt. Quisque ac nulla nec lacus sagittis rhoncus iaculis ut justo. Aliquam ullamcorper augue nisi, non blandit enim tempus ut. Nunc dictum eros congue tortor posuere faucibus. Nulla justo velit, sodales in mi a, posuere porta sem. Aliquam erat volutpat. Pellentesque pharetra sollicitudin ante a tincidunt. Nullam diam elit, tincidunt vitae ligula ac, aliquet lacinia nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus maximus, risus quis feugiat fringilla, tortor mi auctor purus, sit amet pellentesque mauris risus at mi. Ut quis massa pulvinar, ultrices velit vel, accumsan nulla.",
+        "description": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque consequat neque pulvinar tortor imperdiet tincidunt. Donec vel dui in nisl gravida vehicula. Suspendisse placerat lacinia vestibulum. Nulla ornare lacinia tincidunt. Quisque ac nulla nec lacus sagittis rhoncus iaculis ut justo. Aliquam ullamcorper augue nisi, non blandit enim tempus ut. Nunc dictum eros congue tortor posuere faucibus. Nulla justo velit, sodales in mi a, posuere porta sem. Aliquam erat volutpat. Pellentesque pharetra sollicitudin ante a tincidunt. Nullam diam elit, tincidunt vitae ligula ac, aliquet lacinia nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus maximus, risus quis feugiat fringilla, tortor mi auctor purus, sit amet pellentesque mauris risus at mi. Ut quis massa pulvinar, ultrices velit vel, accumsan nullaOrci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque consequat neque pulvinar tortor imperdiet tincidunt. Donec vel dui in nisl gravida vehicula. Suspendisse placerat lacinia vestibulum. Nulla ornare lacinia tincidunt. Quisque ac nulla nec lacus sagittis rhoncus iaculis ut justo. Aliquam ullamcorper augue nisi, non blandit enim tempus ut. Nunc dictum eros congue tortor posuere faucibus. Nulla justo velit, sodales in mi a, posuere porta sem. Aliquam erat volutpat. Pellentesque pharetra sollicitudin ante a tincidunt. Nullam diam elit, tincidunt vitae ligula ac, aliquet lacinia nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus maximus, risus quis feugiat fringilla, tortor mi auctor purus, sit amet pellentesque mauris risus at mi. Ut quis massa pulvinar, ultrices velit vel, accumsan nulla.Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque consequat neque pulvinar tortor imperdiet tincidunt. Donec vel dui in nisl gravida vehicula. Suspendisse placerat lacinia vestibulum. Nulla ornare lacinia tincidunt. Quisque ac nulla nec lacus sagittis rhoncus iaculis ut justo. Aliquam ullamcorper augue nisi, non blandit enim tempus ut. Nunc dictum eros congue tortor posuere faucibus. Nulla justo velit, sodales in mi a, posuere porta sem. Aliquam erat volutpat. Pellentesque pharetra sollicitudin ante a tincidunt. Nullam diam elit, tincidunt vitae ligula ac, aliquet lacinia nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus maximus, risus quis feugiat fringilla, tortor mi auctor purus, sit amet pellentesque mauris risus at mi. Ut quis massa pulvinar, ultrices velit vel, accumsan nulla..",
         "imageName": "paisaje1"
     },
     {
@@ -38,7 +38,7 @@
         "state": "Asturias",
         "id": 1003,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "Parque Natural",
         "coordinates": {
             "longitude": -60.025780,
@@ -54,7 +54,7 @@
         "state": "Asturias",
         "id": 1004,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "Parque Natural",
         "coordinates": {
             "longitude": -60.025780,
@@ -102,7 +102,7 @@
         "state": "Asturias",
         "id": 1007,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "Parque Natural",
         "coordinates": {
             "longitude": -60.025780,
@@ -118,7 +118,7 @@
         "state": "Asturias",
         "id": 1008,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "Parque Natural",
         "coordinates": {
             "longitude": -60.025780,

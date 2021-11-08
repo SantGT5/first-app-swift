@@ -8,13 +8,34 @@
 import SwiftUI
 
 struct SceneryList: View {
+    @EnvironmentObject var modelData: ModelData
+    @State private var showFavoritesOnly = true
+    
+    var filteredSceneries: [Scenary] {
+        modelData.scenaries.filter {
+            scenery in (!showFavoritesOnly || scenery.isFavorite)
+        }
+    }
+    
     var body: some View {
         NavigationView {
-            List(scenaries) {
-                scenery in NavigationLink {
-                    SceneryDetails(scenery: scenery)
-                } label: {
-                    TextView(scenary: scenery)
+            List {
+                
+                Toggle(isOn: $showFavoritesOnly) {
+                    if showFavoritesOnly == true {
+                        Text("Solo favoritos")
+                    } else {
+                        Text("Todos")
+                    }
+                        
+                }
+                
+                ForEach(filteredSceneries){
+                    scenery in NavigationLink {
+                        SceneryDetails(scenery: scenery)
+                    } label: {
+                        SceneryRow(scenary: scenery)
+                    }
                 }
             }
             .navigationTitle("Paisajes")
@@ -25,6 +46,7 @@ struct SceneryList: View {
 struct SceneryList_Previews: PreviewProvider {
     static var previews: some View {
         SceneryList()
+            .environmentObject(ModelData())
     }
 }
 

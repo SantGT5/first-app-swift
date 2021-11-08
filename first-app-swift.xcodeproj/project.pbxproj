@@ -10,9 +10,10 @@
 		1B33FCA927399B2700C7CCAF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B33FCA827399B2700C7CCAF /* CircleImage.swift */; };
 		1B33FCAB27399B5600C7CCAF /* SceneryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B33FCAA27399B5600C7CCAF /* SceneryDetails.swift */; };
 		1B33FCAD27399B8900C7CCAF /* SceneryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B33FCAC27399B8900C7CCAF /* SceneryList.swift */; };
-		1B33FCAF27399BBB00C7CCAF /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B33FCAE27399BBB00C7CCAF /* TextView.swift */; };
+		1B33FCAF27399BBB00C7CCAF /* SceneryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B33FCAE27399BBB00C7CCAF /* SceneryRow.swift */; };
 		1B33FCB127399BE200C7CCAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B33FCB027399BE200C7CCAF /* ContentView.swift */; };
 		1B33FCB327399BFF00C7CCAF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B33FCB227399BFF00C7CCAF /* MapView.swift */; };
+		1B33FCB52739AA3100C7CCAF /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B33FCB42739AA3100C7CCAF /* FavoriteButton.swift */; };
 		1BB7FD9B2732E1DF003F27CC /* first_app_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7FD9A2732E1DF003F27CC /* first_app_swiftApp.swift */; };
 		1BB7FD9F2732E1E2003F27CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7FD9E2732E1E2003F27CC /* Assets.xcassets */; };
 		1BB7FDA22732E1E2003F27CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7FDA12732E1E2003F27CC /* Preview Assets.xcassets */; };
@@ -25,9 +26,10 @@
 		1B33FCA827399B2700C7CCAF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		1B33FCAA27399B5600C7CCAF /* SceneryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneryDetails.swift; sourceTree = "<group>"; };
 		1B33FCAC27399B8900C7CCAF /* SceneryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneryList.swift; sourceTree = "<group>"; };
-		1B33FCAE27399BBB00C7CCAF /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		1B33FCAE27399BBB00C7CCAF /* SceneryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneryRow.swift; sourceTree = "<group>"; };
 		1B33FCB027399BE200C7CCAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B33FCB227399BFF00C7CCAF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1B33FCB42739AA3100C7CCAF /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		1BB7FD972732E1DF003F27CC /* first-app-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "first-app-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB7FD9A2732E1DF003F27CC /* first_app_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_app_swiftApp.swift; sourceTree = "<group>"; };
 		1BB7FD9E2732E1E2003F27CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,10 +55,11 @@
 			children = (
 				1B33FCA827399B2700C7CCAF /* CircleImage.swift */,
 				1B33FCAC27399B8900C7CCAF /* SceneryList.swift */,
-				1B33FCAE27399BBB00C7CCAF /* TextView.swift */,
+				1B33FCAE27399BBB00C7CCAF /* SceneryRow.swift */,
 				1B33FCB027399BE200C7CCAF /* ContentView.swift */,
 				1B33FCB227399BFF00C7CCAF /* MapView.swift */,
 				1B33FCAA27399B5600C7CCAF /* SceneryDetails.swift */,
+				1B33FCB42739AA3100C7CCAF /* FavoriteButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,9 +192,10 @@
 				1BB7FD9B2732E1DF003F27CC /* first_app_swiftApp.swift in Sources */,
 				1B33FCA927399B2700C7CCAF /* CircleImage.swift in Sources */,
 				1B33FCAB27399B5600C7CCAF /* SceneryDetails.swift in Sources */,
+				1B33FCB52739AA3100C7CCAF /* FavoriteButton.swift in Sources */,
 				1BEC3E3527359AC1005D57E6 /* Scenery.swift in Sources */,
 				1B33FCB127399BE200C7CCAF /* ContentView.swift in Sources */,
-				1B33FCAF27399BBB00C7CCAF /* TextView.swift in Sources */,
+				1B33FCAF27399BBB00C7CCAF /* SceneryRow.swift in Sources */,
 				1BEC3E3727359DFA005D57E6 /* ModelData.swift in Sources */,
 				1B33FCB327399BFF00C7CCAF /* MapView.swift in Sources */,
 				1B33FCAD27399B8900C7CCAF /* SceneryList.swift in Sources */,

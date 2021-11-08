@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct TextView: View {
+struct SceneryRow: View {
     
     var scenary: Scenary
     
@@ -19,16 +19,21 @@ struct TextView: View {
                 .frame(width:  50, height: 50)
             Text(scenary.name)
             Spacer()
+            
+            if scenary.isFavorite{
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
 
-struct TextView_Previews: PreviewProvider {
+struct SceneryRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            TextView(scenary: scenaries[3])
-            TextView(scenary: scenaries[4])
-            TextView(scenary: scenaries[5])
+            SceneryRow(scenary: ModelData().scenaries[3])
+            SceneryRow(scenary: ModelData().scenaries[4])
+            SceneryRow(scenary: ModelData().scenaries[5])
               
         }
         .previewLayout(.fixed(width: 300, height: 70))

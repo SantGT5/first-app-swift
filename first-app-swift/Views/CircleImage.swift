@@ -2,7 +2,7 @@
 //  CircleImage.swift
 //  first-app-swift
 //
-//  Created by Jose Manuel Barba Sánchez on 5/11/21.
+//  Created by Jose Manuel Barba Sánchez on 8/11/21.
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  MapView.swift
 //  first-app-swift
 //
-//  Created by Jose Manuel Barba Sánchez on 5/11/21.
+//  Created by Jose Manuel Barba Sánchez on 8/11/21.
 //
 
 import SwiftUI
@@ -44,4 +44,3 @@ struct MapView_Previews: PreviewProvider {
             latitude: 34.011_286, longitude: -116.166_868))
     }
 }
-

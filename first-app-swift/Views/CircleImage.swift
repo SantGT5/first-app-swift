@@ -34,10 +34,7 @@ extension Image {
             .foregroundColor(.pink)
             .opacity(0.6)
     }
-    
-
 }
-
 
 struct CircleImage: View {
     var image: Image
@@ -75,7 +72,7 @@ struct CircleImage: View {
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage(image: ModelData().scenaries[4].image)
+        CircleImage(image: ModelData().scenaries[2].image)
         
     }
 }

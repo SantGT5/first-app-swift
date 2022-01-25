@@ -1,7 +1,7 @@
 [
     {
         "name": "Paisaje1",
-        "category": "Montaña",
+        "category": "Rios",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1001,
@@ -17,7 +17,7 @@
     },
     {
         "name": "Paisaje2",
-        "category": "Montaña",
+        "category": "Montañas",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1002,
@@ -33,7 +33,7 @@
     },
     {
         "name": "Paisaje3",
-        "category": "Montaña",
+        "category": "Lagos",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1003,
@@ -49,11 +49,11 @@
     },
     {
         "name": "Paisaje4",
-        "category": "Montaña",
+        "category": "Montañas",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1004,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "Parque Natural",
         "coordinates": {
@@ -65,11 +65,11 @@
     },
     {
         "name": "Paisaje5",
-        "category": "Montaña",
+        "category": "Rios",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1005,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": true,
         "park": "Parque Natural",
         "coordinates": {
@@ -81,11 +81,11 @@
     },
     {
         "name": "Paisaje6",
-        "category": "Montaña",
+        "category": "Montañas",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1006,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": true,
         "park": "Parque Natural",
         "coordinates": {
@@ -97,11 +97,11 @@
     },
     {
         "name": "Paisaje7",
-        "category": "Montaña",
+        "category": "Montañas",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1007,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "Parque Natural",
         "coordinates": {
@@ -113,11 +113,11 @@
     },
     {
         "name": "Paisaje8",
-        "category": "Montaña",
+        "category": "Lagos",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1008,
-        "isFeatured": true,
+        "isFeatured": false,
         "isFavorite": false,
         "park": "Parque Natural",
         "coordinates": {

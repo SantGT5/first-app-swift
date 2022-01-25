@@ -17,11 +17,22 @@ struct Scenary: Hashable, Codable, Identifiable{
     var state: String
     var description: String
     var isFavorite: Bool
+    var category: Category
+    var isFeatured: Bool
     
+    enum Category: String, CaseIterable, Codable {
+        case lakes = "Lagos"
+        case rivers = "Rios"
+        case mountains = "Montañas"
+    }
     
     private var imageName: String
     var image: Image {
         Image(imageName)
+    }
+    
+    var featureImage: Image? {
+        isFeatured ? Image(imageName + "_feature"): nil
     }
     
     private var coordinates: Coordinates
